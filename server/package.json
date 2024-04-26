@@ -1,0 +1,22 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Proof of concept for PerseverNow chatbot with the idea of adding this to our curriculum. It uses Hugging Face which is like omg and eventually the MERN stack because that is what our curriculum is based on. This first iteration is just the Node backend with an Express API that returns the Hugging Face inference.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/agents": "^0.0.5",
+    "@huggingface/hub": "^0.14.10",
+    "@huggingface/inference": "^2.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
